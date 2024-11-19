@@ -6,6 +6,8 @@ Pod::Spec.new do |s|
   s.license      = "BSD"
   s.author       = { "Grzegorz Pstrucha" => "gricha@fb.com" }
   s.platform     = :ios, "7.0"
+  s.swift_version = "5.0"
+  s.static_framework = true
   s.source       = {
     :git => "https://github.com/facebook/FBRetainCycleDetector.git",
     :tag => "0.1.4"
